@@ -5,7 +5,6 @@ bool isPalindrome(int num, int palNum, int orginalNum) {
     if(num == 0) {
         return palNum == orginalNum;
     }
-    
     int rem = num%10;
     palNum = (palNum*10) + rem;
     num = num/10;
